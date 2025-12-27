@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Dore Canine Services</title>
+    <link href="https://russ-nixon.github.io/dcs/feed.xml" rel="self" />
+    <link href="https://russ-nixon.github.io/dcs" />
+    <updated>2025-12-25T02:16:16+00:00</updated>
+    <author>
+        <name>Andrew</name>
+    </author>
+    <id>https://russ-nixon.github.io/dcs</id>
+
+    <entry>
+        <title>Dore Canine Services</title>
+        <author>
+            <name>Andrew</name>
+        </author>
+        <link href="https://russ-nixon.github.io/dcs/dore-canine-services.html"/>
+        <id>https://russ-nixon.github.io/dcs/dore-canine-services.html</id>
+
+        <updated>2025-12-25T02:16:16+00:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>
