@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Dore Canine Services",
     "description": "",
-    "home_page_url": "https://russ-nixon.github.io/dcs",
-    "feed_url": "https://russ-nixon.github.io/dcs/feed.json",
+    "home_page_url": "https://russ-nixon.github.io/DCS",
+    "feed_url": "https://russ-nixon.github.io/DCS/feed.json",
     "user_comment": "",
     "author": {
         "name": "Andrew"
     },
     "items": [
         {
-            "id": "https://russ-nixon.github.io/dcs/dore-canine-services.html",
-            "url": "https://russ-nixon.github.io/dcs/dore-canine-services.html",
+            "id": "https://russ-nixon.github.io/DCS/dore-canine-services.html",
+            "url": "https://russ-nixon.github.io/DCS/dore-canine-services.html",
             "title": "Dore Canine Services",
             "author": {
                 "name": "Andrew"
