@@ -62,7 +62,15 @@
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: var(--font-body); color: var(--text); background: var(--bg); font-size: 17px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    body { font-family: var(--font-body); color: var(--text); background: var(--bg); font-size: 17px; line-height: 1.55; -webkit-font-smoothing: antialiased; position: relative; }
+    body::before {
+      content: '';
+      position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 570'%3E%3Cpath d='M 140 250 C 220 120, 320 180, 420 150 C 520 120, 600 60, 720 80 Q 720 170 680 260 Q 550 310 420 340 Q 280 320 140 250 M 420 340 Q 420 450 520 550 Q 630 430 680 260' fill='none' stroke='%23163f3d' stroke-width='18' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ctext x='190.4' y='250.7' font-size='32' font-weight='700' fill='%23163f3d' font-family='sans-serif'%3EOx Stones%3C/text%3E%3Ctext x='522' y='50' font-size='32' font-weight='700' fill='%23163f3d' font-family='sans-serif'%3ELady Canning%27s%3C/text%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: calc(50% - 6vw) center; background-size: min(1120px, 112vw);
+      opacity: 0.02993; z-index: 0; pointer-events: none;
+    }
+    body > * { position: relative; z-index: 1; }
     img { max-width: 100%; display: block; }
     a { color: var(--blue); text-decoration: none; }
     a:hover { color: var(--blue-dark); }
@@ -206,6 +214,8 @@
     .footer-cta { text-align: right; }
     .footer-cta a { color: white; font-weight: 600; font-size: 1.1rem; border-bottom: 1px solid rgba(255,255,255,0.3); padding-bottom: 4px; }
     .footer-cta a:hover { color: rgba(255,255,255,0.8); }
+    .route-mark { margin-top: 20px; color: #c9c9c9; display: flex; flex-direction: column; gap: 8px; }
+    .route-label { font-size: 0.72rem; letter-spacing: 0.02em; }
 
     /* PHOTO STRIP */
     .photo-strip { background: var(--white); padding: 0; }
